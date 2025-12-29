@@ -8,7 +8,12 @@
 
 <Container>
   <h1 class="text-3xl font-bold text-center mb-6">ALL CHEESE</h1>
-
+    <!-- <img
+          src=""
+          alt="ALL CHEESE"
+          class="w-full rounded-md mb-4"
+        /> -->
+ 
   <CategoryNav {categories} bind:active />
 
   {#each categories as category}
