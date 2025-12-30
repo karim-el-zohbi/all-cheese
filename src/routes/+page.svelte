@@ -8,17 +8,17 @@
 
 <Container>
   <h1 class="text-3xl font-bold text-center mb-6">ALL CHEESE</h1>
-    <!-- <img
-          src=""
-          alt="ALL CHEESE"
-          class="w-full rounded-md mb-4"
-        /> -->
+ <img
+  src="/images/restaurant.jpg"
+  alt="All Cheese Restaurant"
+  class="w-full max-w-2xl mx-auto mt-4 rounded-md"
+/>
  
   <CategoryNav {categories} bind:active />
 
   {#each categories as category}
     {#if active === 'all' || active === category.id}
-      <section class="mb-10">
+      <section class="mb-10 ">
         <div class="border-t border-black pt-4 mb-4">
           <h2 class="text-xl font-semibold">{category.title}</h2>
         </div>

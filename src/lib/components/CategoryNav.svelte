@@ -3,7 +3,7 @@
   export let active = 'all';
 </script>
 
-<div class="flex justify-center gap-6 border-b border-black pb-2 mb-6 overflow-x-auto">
+<div class="flex justify-center gap-6 border-b border-black pb-2 mb-6 mt-6 overflow-x-auto">
   <button
     class="font-semibold"
     on:click={() => (active = 'all')}
